@@ -26,21 +26,6 @@ Não é necessário instalar Node ou outra ferramenta para rodar o projeto base.
 | `main.js` | Comportamento completo de referência (abas + contagem). |
 | `aulas/` | **Uma pasta por etapa da trilha** — equivalente a “branches” de trabalho: DOM, eventos, abas, datas, contador, várias metas, intervalo e refatoração final. Veja o [índice da trilha](aulas/README.md). |
 
-## Trilha por aulas (pastas em `aulas/`)
-
-Cada subpasta contém um `README.md` com objetivos e um `js/exercicio.js` para a turma completar ou adaptar. Ordem sugerida: `aula01` → `aula08`, como descrito em [aulas/README.md](aulas/README.md).
-
-Para testar o script de uma aula, aponte o final do `index.html` para o arquivo correspondente, por exemplo:
-
-```html
-<script src="aulas/aula03-abas-conteudo/js/exercicio.js"></script>
-```
-
-(comente ou remova temporariamente o `<script src="main.js">` para evitar dois comportamentos ao mesmo tempo).
-
-## Detalhe importante: ordem das folhas de estilo
-
-O Bootstrap define estilos para o `body`. Por isso, no `index.html`, **o `style.css` do projeto vem por último** nos `<link>`, para preservar a cor de fundo e o restante do tema.
 
 ## Licença
 
