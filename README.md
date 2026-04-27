@@ -24,7 +24,7 @@ Não é necessário instalar Node ou outra ferramenta para rodar o projeto base.
 | `index.html` | Estrutura da página, quatro painéis de meta e IDs dos contadores (`days0`…`seconds3`). |
 | `style.css` | Cores, layout e classes dos botões e painéis. Carregado **depois** do Bootstrap para o tema não ser sobrescrito. |
 | `main.js` | Comportamento completo de referência (abas + contagem). |
-| `aulas/` | **Uma pasta por etapa da trilha** — equivalente a “branches” de trabalho: DOM, eventos, abas, datas, contador, várias metas, intervalo e refatoração final. Veja o [índice da trilha](aulas/README.md). |
+| `aulas/` | **Uma pasta por etapa da trilha** — equivalente a “branches” de trabalho: DOM, eventos, abas, datas, contador, várias metas, intervalo e refatoração final. |
 
 
 ## Licença
